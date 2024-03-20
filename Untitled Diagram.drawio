@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T10:37:29.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="03ZSFzdjXdijJENpFyAe" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-20T10:42:58.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FHbGSHSbDy8upX5kaKmh" version="24.0.7" type="github" pages="3">
   <diagram name="workspace" id="g_nydXo4ztZp-hx2b2BG">
     <mxGraphModel dx="1630" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Cz59rWMl22EjLUC5MazV-1" value="Workspace&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- directory&lt;/div&gt;&lt;div&gt;- diagram.json&lt;/div&gt;&lt;div&gt;- .env&lt;/div&gt;&lt;div&gt;- .data-story.json&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+        <mxCell id="Cz59rWMl22EjLUC5MazV-1" value="Workspace&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- path/to/workspace/directory/&lt;/div&gt;&lt;div&gt;- diagram.json&lt;/div&gt;&lt;div&gt;- .env&lt;/div&gt;&lt;div&gt;- .data-story.json&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
           <mxGeometry x="40" y="-170" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Cz59rWMl22EjLUC5MazV-2" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
