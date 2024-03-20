@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T14:22:04.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZIdfyesAqVACncTLVjyS" version="24.0.7" type="github" pages="4">
-  <diagram id="tNSrvhfLs-fp7F86ABPB" name="Legend">
+<mxfile host="app.diagrams.net" modified="2024-03-20T15:02:00.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="o5BtGpHKmZSrCoTQ1nBE" version="24.0.7" type="github" pages="4">
+  <diagram id="tNSrvhfLs-fp7F86ABPB" name="Legend - first read">
     <mxGraphModel dx="570" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -171,7 +171,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qMqVtyk_zu3tnloOVSBr" name="DataStoryWindow">
-    <mxGraphModel dx="877" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="713" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
