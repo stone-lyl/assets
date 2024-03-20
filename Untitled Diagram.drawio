@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T10:01:41.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9lEOYsrWGTpP64RLKnpk" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-20T10:13:43.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="UI9Ab25tXUptq4hlixY7" version="24.0.7" type="github" pages="2">
   <diagram name="workspace" id="g_nydXo4ztZp-hx2b2BG">
     <mxGraphModel dx="1630" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,10 +145,10 @@
           <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cqZUNgLi1vSfw1ijjYbB-4" value="DataStoryWindow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cqZUNgLi1vSfw1ijjYbB-5" value="Close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cqZUNgLi1vSfw1ijjYbB-6" value="&lt;div&gt;createWindow&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;workspace.open(dataStoryWindow)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="240" height="60" as="geometry" />
@@ -168,6 +168,23 @@
         <mxCell id="9iwI3naTPrCsCBkSFBth-5" value="setTitle(string);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="9iwI3naTPrCsCBkSFBth-1">
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="hpucvAPdwXykVdf3EozG-1" value="&lt;div&gt;workspace.close()&lt;/div&gt;&lt;div&gt;window.close()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpucvAPdwXykVdf3EozG-2" value="open empty window" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="320" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hpucvAPdwXykVdf3EozG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpucvAPdwXykVdf3EozG-3" target="hpucvAPdwXykVdf3EozG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpucvAPdwXykVdf3EozG-3" value="open DataStoryWindow" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="210" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="Load default workspace" link="data:page/id,g_nydXo4ztZp-hx2b2BG" id="hpucvAPdwXykVdf3EozG-4">
+          <mxCell style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="680" y="250" width="210" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
