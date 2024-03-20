@@ -1,11 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T09:20:23.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="R7oLgAeZZe5HffheFpxH" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T09:29:21.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Wt4u7vFVjnwq5vUb1g6b" version="24.0.7" type="github">
   <diagram name="fabonacci" id="g_nydXo4ztZp-hx2b2BG">
-    <mxGraphModel dx="570" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1630" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Cz59rWMl22EjLUC5MazV-1" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="Cz59rWMl22EjLUC5MazV-1" value="Workspace&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- directory&lt;/div&gt;&lt;div&gt;- diagram.json&lt;/div&gt;&lt;div&gt;- .env&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-2" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-3" value="Open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-4" value="loadEnv&lt;div&gt;setWindowTitle&lt;/div&gt;&lt;div&gt;loadDiagram&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-5" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-7" value="Switch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=sharp;" edge="1" parent="1" source="Cz59rWMl22EjLUC5MazV-8" target="Cz59rWMl22EjLUC5MazV-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="335" />
+              <mxPoint x="440" y="395" />
+              <mxPoint x="20" y="395" />
+              <mxPoint x="20" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-8" value="Close Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="Cz59rWMl22EjLUC5MazV-9" target="Cz59rWMl22EjLUC5MazV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-9" value="Open Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-11" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-12" value="Close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-13" value="unloadEnv&lt;div&gt;resetWindowTitle&lt;/div&gt;&lt;div&gt;unloadDiagram&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-15" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-16" value="Load default" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-17" value="a special workspace object. NULL object pattern" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-18" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-19" value="Save diagram to" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz59rWMl22EjLUC5MazV-20" value="writeDiagramToFile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
