@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2024-04-12T08:34:40.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7gmdBTAE0NvTJu9ZMBGB" version="24.2.0" type="github" pages="2">
+  <diagram id="d5gl4QwFa03STW00YMON" name="Page-1">
+    <mxGraphModel dx="1207" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;shadow=0;strokeWidth=2;gradientColor=#b3b3b3;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="You can now show/hide cells&lt;br&gt;with links on shapes and text..." style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;fillColor=#f5f5f5;strokeColor=#666666;comic=1;shadow=0;strokeWidth=2;gradientColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="300" y="99" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;shadow=0;strokeWidth=2;gradientColor=#b3b3b3;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Click here to see it in action!" link="data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;: {&quot;cells&quot;: [&quot;5&quot;, &quot;7&quot;]}}]}" id="3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;comic=1;shadow=0;strokeWidth=2;gradientColor=#7ea6e0;fontSize=16;fontStyle=2" parent="1" vertex="1">
+            <mxGeometry x="300" y="219" width="250" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5" value="The format is&amp;nbsp;data:action/json,{&quot;actions&quot;:[{&quot;toggle&quot;: {&quot;cells&quot;: [id1, id2, ...]}}]}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;shadow=0;strokeWidth=2;gradientColor=#b3b3b3;" parent="1" vertex="1" visible="0">
+          <mxGeometry x="300" y="339" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="IDs can be found in the Edit Data dialog or&lt;br&gt;in the tooltip for layers in the Layers dialog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;comic=1;shadow=0;strokeWidth=2;gradientColor=#b3b3b3;" parent="1" vertex="1" visible="0">
+          <mxGeometry x="300" y="423" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P5UvWLl-yHD5Ik-sSlR9" name="Page-2">
+    <mxGraphModel dx="1207" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="THYINVqCNPaFxGYVnuc3-2" value="Sidebar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THYINVqCNPaFxGYVnuc3-3" value="Form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THYINVqCNPaFxGYVnuc3-4" value="Modal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="380" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THYINVqCNPaFxGYVnuc3-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="THYINVqCNPaFxGYVnuc3-3" target="THYINVqCNPaFxGYVnuc3-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THYINVqCNPaFxGYVnuc3-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="THYINVqCNPaFxGYVnuc3-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THYINVqCNPaFxGYVnuc3-7" value="&lt;code style=&quot;background-color: var(--color-neutral-muted); color: rgb(36, 41, 47); white-space-collapse: break-spaces; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 13.6px; padding: 3px 5px; margin: 0px; border-radius: 6px;&quot;&gt;Form&lt;/code&gt;&lt;span style=&quot;background-color: rgba(0, 0, 0, 0.05); color: rgb(36, 41, 47); font-family: &amp;quot;Noto Sans&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Text&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px;&quot;&gt;: contains logic for parameters, input, output, etc.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="60" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
