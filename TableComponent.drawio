@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T08:34:40.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7gmdBTAE0NvTJu9ZMBGB" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-12T08:38:51.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gIzYjJ8KnASSYjaK8QO1" version="24.2.0" type="github" pages="2">
   <diagram id="d5gl4QwFa03STW00YMON" name="Page-1">
     <mxGraphModel dx="1207" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -28,7 +28,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P5UvWLl-yHD5Ik-sSlR9" name="Page-2">
-    <mxGraphModel dx="1207" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="640" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,6 +55,30 @@
         </mxCell>
         <mxCell id="THYINVqCNPaFxGYVnuc3-7" value="&lt;code style=&quot;background-color: var(--color-neutral-muted); color: rgb(36, 41, 47); white-space-collapse: break-spaces; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 13.6px; padding: 3px 5px; margin: 0px; border-radius: 6px;&quot;&gt;Form&lt;/code&gt;&lt;span style=&quot;background-color: rgba(0, 0, 0, 0.05); color: rgb(36, 41, 47); font-family: &amp;quot;Noto Sans&amp;quot;, &amp;quot;SF Pro SC&amp;quot;, &amp;quot;SF Pro Text&amp;quot;, &amp;quot;SF Pro Icons&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px;&quot;&gt;: contains logic for parameters, input, output, etc.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="60" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-1" target="NIE-14_KYxLudchGvDw2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-1" value="computers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-2" target="NIE-14_KYxLudchGvDw2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-2" value="JSClient/SocketServer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-5" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;observable&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-6" value="&lt;span style=&quot;line-height: 24px; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12.6px; letter-spacing: 0.3px; text-align: left; white-space-collapse: preserve; background-color: rgba(241, 241, 241, 0.2);&quot; class=&quot;pln&quot;&gt;observable&lt;/span&gt;&lt;span style=&quot;line-height: 24px; color: rgb(102, 102, 0); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12.6px; letter-spacing: 0.3px; text-align: left; white-space-collapse: preserve; background-color: rgba(241, 241, 241, 0.2);&quot; class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;line-height: 24px; font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12.6px; letter-spacing: 0.3px; text-align: left; white-space-collapse: preserve; background-color: rgba(241, 241, 241, 0.2);&quot; class=&quot;pln&quot;&gt;subscribe&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-7" value="Nodes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-9" value="dataStoryEvents" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
