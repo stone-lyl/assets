@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T04:28:49.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lDZEXgQiMQazYlkgN0bV" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-13T04:41:10.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="c3312AEwf7I6KpIPt77t" version="24.2.0" type="github" pages="2">
   <diagram id="d5gl4QwFa03STW00YMON" name="Page-1">
     <mxGraphModel dx="1207" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -68,20 +68,23 @@
         <mxCell id="NIE-14_KYxLudchGvDw2-10" value="third party" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="90" y="840" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-11" target="NIE-14_KYxLudchGvDw2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-11" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="350" y="840" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NIE-14_KYxLudchGvDw2-13" value="nodeId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="829" width="60" height="30" as="geometry" />
+        <mxCell id="NIE-14_KYxLudchGvDw2-13" value="linkId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="829" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-14" value="OutputObservable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="350" y="900" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NIE-14_KYxLudchGvDw2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-15" target="NIE-14_KYxLudchGvDw2-14">
+        <mxCell id="NIE-14_KYxLudchGvDw2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-15" target="NIE-14_KYxLudchGvDw2-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OutputObservable&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="290" y="960" width="240" height="86" as="geometry" />
+          <mxGeometry x="40" y="970" width="240" height="86" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-16" value="subscriber.next(nodeId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NIE-14_KYxLudchGvDw2-15">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -93,7 +96,7 @@
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-23" value="记录下所有 nodeId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="930" width="130" height="30" as="geometry" />
+          <mxGeometry x="220" y="930" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-11" target="NIE-14_KYxLudchGvDw2-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -133,6 +136,15 @@
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-41" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; text-wrap: nowrap;&quot;&gt;执行 watchDataChange&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 0, 0); font-size: 12px; text-wrap: nowrap;&quot;&gt;when&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 0, 0); font-size: 12px; text-wrap: nowrap;&quot;&gt;the subscribe next execute&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="100" y="610" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-43" value="linkIdArray" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="930" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-44" value="OutputDevice" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-47" value="在 pushTo 中&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;OutputObservable.&lt;/span&gt;subscribe nodeIdArray 存在的id&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="630" y="930" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
