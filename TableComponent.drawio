@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-14T03:08:54.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4IZdgGe5BNTiaurD6xJU" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-14T03:34:53.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2_seOGJFpwFFVVPYThqj" version="24.2.0" type="github" pages="2">
   <diagram id="d5gl4QwFa03STW00YMON" name="Page-1">
     <mxGraphModel dx="1207" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -33,16 +33,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NIE-14_KYxLudchGvDw2-52" value="third" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-645" y="440" width="100" height="620" as="geometry" />
+          <mxGeometry x="-647" y="440" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="NIE-14_KYxLudchGvDw2-53" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-525" y="440" width="100" height="630" as="geometry" />
-        </mxCell>
-        <mxCell id="NIE-14_KYxLudchGvDw2-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NIE-14_KYxLudchGvDw2-53">
-          <mxGeometry x="45" y="60" width="10" height="40" as="geometry" />
+        <mxCell id="NIE-14_KYxLudchGvDw2-53" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-535" y="440" width="120" height="600" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-54" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-400" y="440" width="100" height="630" as="geometry" />
+          <mxGeometry x="-400" y="440" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-601" y="500" width="10" height="40" as="geometry" />
@@ -156,7 +153,34 @@
           <mxGeometry x="-601" y="530" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NIE-14_KYxLudchGvDw2-103" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; text-wrap: nowrap;&quot;&gt;watchDataChange&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; text-wrap: nowrap;&quot;&gt;(items)&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="770" width="160" height="40" as="geometry" />
+          <mxGeometry x="-524" y="770" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-105" target="NIE-14_KYxLudchGvDw2-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-105" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-601" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-109" value="unWatchDataChange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-611" y="880" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-114" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;outputController.un&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12.6px; letter-spacing: 0.3px; white-space-collapse: preserve; background-color: rgba(241, 241, 241, 0.2);&quot;&gt;subscribe(&lt;/span&gt;&lt;span style=&quot;background-color: rgba(241, 241, 241, 0.2); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12.6px; letter-spacing: 0.3px; white-space-collapse: preserve;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="870" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIE-14_KYxLudchGvDw2-106" target="NIE-14_KYxLudchGvDw2-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-111" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-354" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-116" value="unsubscribe items" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="859" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
