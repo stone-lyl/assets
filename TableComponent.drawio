@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T02:30:27.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2Dxhqyql-z2ttMucfOxI" version="24.2.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T02:34:13.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ag92mqajGToBM4mQauBQ" version="24.2.0" type="github" pages="2">
   <diagram id="d5gl4QwFa03STW00YMON" name="Page-1">
     <mxGraphModel dx="1207" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -207,6 +207,9 @@
             <mxPoint x="-200" y="650" as="sourcePoint" />
             <mxPoint x="-150" y="600" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NIE-14_KYxLudchGvDw2-147" value="ipcBridge on the node side" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="-366" y="200" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
