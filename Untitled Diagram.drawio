@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T09:17:04.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="n0EE5x2b0t8zM1IoHqMD" version="24.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-04-19T04:09:30.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PCF8Tlz0PabJQz0TWbyJ" version="24.2.5" type="github" pages="4">
   <diagram id="tNSrvhfLs-fp7F86ABPB" name="Legend - first read">
     <mxGraphModel dx="761" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="workspace" id="g_nydXo4ztZp-hx2b2BG">
-    <mxGraphModel dx="1472" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1435" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,14 +167,14 @@
         <mxCell id="zgu6wGIr5QjoTVv2KiIE-2" value="to workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NrWFrufdHhd-ZVReEP0r-1" value="1. new Workspace(path)&lt;div&gt;2. 只需要实现 open close, load&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="590" y="-200" width="550" height="200" as="geometry" />
+        <mxCell id="NrWFrufdHhd-ZVReEP0r-1" value="&lt;div&gt;// To achieve the following two features, we need to use `Class DefaultWorkspace`:&lt;/div&gt;&lt;div&gt;1. Differentiate between &quot;Save&quot; and &quot;Save As&quot;.&lt;/div&gt;&lt;div&gt;2. Enable multi-window support.&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/**&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;* DefaultWorkspace Class: Extends Workspace and provides default path for the workspace&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;*/&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;export class DefaultWorkspace extends Workspace {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; constructor() {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; super(defaultPath);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; openDiagram = async(mainWindow: MainWindowActions,filePath: string): Promise&amp;lt;string&amp;gt; =&amp;gt; {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; this.initSettingsAndEnv(mainWindow);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; return &#39;{}&#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-200" width="610" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="qMqVtyk_zu3tnloOVSBr" name="DataStoryWindow">
-    <mxGraphModel dx="1066" dy="1362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="841" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
