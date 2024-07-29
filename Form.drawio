@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T15:08:26.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PAg3oiSfVEQ09UWtNwY_" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-29T15:15:32.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LpaD201r_g_Jz2hke8k4" version="24.6.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1465" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,42 +600,87 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IacF8WJUV_-pmUBslIKr" name="sidebar">
-    <mxGraphModel dx="488" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="578" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dG4nJJwwTME6I2KvYodN-25" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="194" width="290" height="200" as="geometry" />
+          <mxGeometry x="130" y="194" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="dG4nJJwwTME6I2KvYodN-3" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=90;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-25">
-          <mxGeometry width="290" height="200" as="geometry" />
+          <mxGeometry width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-5" value="Sidebar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-3">
-          <mxGeometry x="10" y="70" width="60" height="30" as="geometry" />
+        <mxCell id="dG4nJJwwTME6I2KvYodN-5" value="Sidebar：&lt;br&gt;default config/ placeholder" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-3">
+          <mxGeometry x="-10" y="66" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dG4nJJwwTME6I2KvYodN-12" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-3">
-          <mxGeometry x="90" width="200" height="40" as="geometry" />
+          <mxGeometry x="96.20689655172413" width="213.96551724137936" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dG4nJJwwTME6I2KvYodN-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-12">
-          <mxGeometry width="200" height="40" as="geometry" />
+          <mxGeometry width="213.96551724137936" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dG4nJJwwTME6I2KvYodN-14" value="dataStory&lt;div style=&quot;font-size: 8px;&quot;&gt;control&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-13">
+          <mxGeometry width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-15" value="node&lt;div&gt;configuration&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-13">
+          <mxGeometry x="64" width="75" height="40" as="geometry">
+            <mxRectangle width="75" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-16" value="digram&lt;br&gt;configuration" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-13">
+          <mxGeometry x="139" width="75" height="40" as="geometry">
+            <mxRectangle width="75" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-4" value="DataStory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-25">
+          <mxGeometry x="129.3448275862069" y="85" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-26" value="" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=90;" vertex="1" parent="1">
+          <mxGeometry x="130" y="474" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Sidebar:&lt;br style=&quot;font-size: 12px;&quot;&gt;digram configuration detail&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry x="-30" y="61" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-28" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry x="90" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-28">
+          <mxGeometry width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-30" value="dataStory&lt;div style=&quot;font-size: 8px;&quot;&gt;control&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-29">
           <mxGeometry width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-15" value="node&lt;div&gt;config&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-13">
-          <mxGeometry x="60" width="60" height="40" as="geometry">
-            <mxRectangle width="60" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-16" value="digram&lt;br&gt;config" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-13">
-          <mxGeometry x="120" width="80" height="40" as="geometry">
+        <mxCell id="dG4nJJwwTME6I2KvYodN-31" value="node&lt;div&gt;configuration&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-29">
+          <mxGeometry x="60" width="80" height="40" as="geometry">
             <mxRectangle width="80" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-4" value="DataStory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-25">
-          <mxGeometry x="121" y="85" width="80" height="30" as="geometry" />
+        <mxCell id="dG4nJJwwTME6I2KvYodN-32" value="digram&lt;br&gt;configuration" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=8;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-29">
+          <mxGeometry x="140" width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-35" value="DataStory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry x="190.00482758620683" y="66" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="dG4nJJwwTME6I2KvYodN-26" source="dG4nJJwwTME6I2KvYodN-35" target="dG4nJJwwTME6I2KvYodN-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="106" as="sourcePoint" />
+            <mxPoint x="100" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dataStory event callback:&lt;br&gt;sidebar type: xx&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;sidebar data: {}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry x="70" y="91" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dG4nJJwwTME6I2KvYodN-3" target="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG4nJJwwTME6I2KvYodN-34" value="click digram config" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="246" y="409" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
