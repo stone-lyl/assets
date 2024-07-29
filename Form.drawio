@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T15:15:32.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LpaD201r_g_Jz2hke8k4" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-29T15:41:01.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="afGARHW4yi6IHpKNkZ6l" version="24.6.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1465" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,7 +600,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IacF8WJUV_-pmUBslIKr" name="sidebar">
-    <mxGraphModel dx="578" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="626" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,14 +673,14 @@
             <mxPoint x="100" y="106" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dataStory event callback:&lt;br&gt;sidebar type: xx&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;sidebar data: {}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
-          <mxGeometry x="70" y="91" width="170" height="60" as="geometry" />
+        <mxCell id="dG4nJJwwTME6I2KvYodN-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;dataStory event callback:&lt;br&gt;active key: xx&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;sidebar data: {}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="dG4nJJwwTME6I2KvYodN-26">
+          <mxGeometry x="90" y="96" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dG4nJJwwTME6I2KvYodN-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dG4nJJwwTME6I2KvYodN-3" target="dG4nJJwwTME6I2KvYodN-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dG4nJJwwTME6I2KvYodN-34" value="click digram config" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="246" y="409" width="130" height="30" as="geometry" />
+        <mxCell id="dG4nJJwwTME6I2KvYodN-34" value="click digram configuration button&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="409" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
