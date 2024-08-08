@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="iTNXjCLcVwZwYkU9qOPI">
-    <mxGraphModel dx="906" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="688" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
             <mxPoint x="230" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DlmjGo5GrGs6SF8IxwzP-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;When you click on run, &lt;br&gt;the sidebar will open&lt;br&gt;&amp;nbsp;(migrating the content from the run modal to the sidebar), &lt;br&gt;and the settings icon will be highlighted.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DlmjGo5GrGs6SF8IxwzP-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;When you click on run, &lt;br&gt;the sidebar will open&lt;br&gt;&amp;nbsp;(migrating the content from the run modal to the sidebar), &lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;and it doesn&#39;t highlight any `activityBar` icon.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="204" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DlmjGo5GrGs6SF8IxwzP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.937;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlmjGo5GrGs6SF8IxwzP-5" target="DlmjGo5GrGs6SF8IxwzP-3">
@@ -28,8 +28,14 @@
             <mxPoint x="530" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DlmjGo5GrGs6SF8IxwzP-7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;When you click on add, &lt;br&gt;the sidebar will open&lt;br&gt;&amp;nbsp;(migrating the content from the addNode modal to the sidebar), &lt;br&gt;and the settings icon will be highlighted.&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475" y="180" width="390" height="80" as="geometry" />
+        <mxCell id="DlmjGo5GrGs6SF8IxwzP-7" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;When you click on add, &lt;br&gt;the sidebar will open&lt;br&gt;&amp;nbsp;(migrating the content from the addNode modal to the sidebar), &lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;and it doesn&#39;t highlight any `activityBar` icon.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="190" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DlmjGo5GrGs6SF8IxwzP-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAIAAAAHj8TvAAADJUlEQVRoBe2Y2VLiQBRA+f9vQBwLEEcGEkE2RwQFNCwquAGOGwgkIjpkUcQsPQ+x2pg2Tui0U2VNqDx0377pPhxuXSAe8NVenq8GDFziz//IXMf/wLEsy59/CskTPIqikNzv8/dy69h1jBpwqwJ1QjriOiZtFN3vv3c8mTzV6sfl3QP94gUJleQwQtjxWq7k9UfgVWT2HPKht5Mk1jRtIbQCcb3+yMZWGT3SYYQkMS+IviBlJA6E4w750NsdERfL+0ets9HdWNO0ATtcSeaMuPqYSmS5m5EsK4IgMbXGdqUuy45+e+ETt8+uUD47kZPTc9Sc/Qgm8cPDZC4QtcOH5ixFU/b50ExM4lJ5D0Xx+iOBcLzZvuizNwNu2GxfBMOr76ZtV+sois0IJnG+VEVR6OSGqqq8IF52ehed3uPkaXQ3phJZNDNXqGiaZhPRlIZJrCgKnczOBV5b7/wiDQDo9ljIFwivdnscL0jzi28aCFM7MEHMNMUkBgCoqhpLvzaHnWpDlB4Wlt70Y71kU+sF+DaY2oGiqDMhmpLxiQEA+4dNiNJsn3PDEZzCwZgXW6eXcNrpDkwEs04dEdePWhDluHV2O7pHG8hkMt2p1mHa9YCbFdGU74g4EvsJUYrMviwr30I0jHj9kXg6DwAwFs8S5ai1AYD73E0QpejquhHOF6TYm9H9b34l9VLcibUtXhC7Pdb3tnPH0rnp9Nlkzv4U03E0/moXci/Tmes+p2kaL0hjXtRbx3cqBRPgIJbO2Uc0ZWIS/zrvwONNg1A0ydQald1DU98wprVOL00c9qcevE7+NJ3OGX4HG2n+Ok6uF+zzoZke7OduA3Y4v0j7glQ8s5ndZJbpjBVrKJLIbJSi8Ze6v+47aheYjvW3ftXps9ytPn5+lvPFCgqdL1VV9eUrQ5Ie++wQ1TZTBLOO3z1Dkh5NX8g/Ymt4Vffu/nqQJDH6r2mzVPvgbLwlksQAgMLOrrEw9honeFgf3EWY+IOTSC25xKRMWu/jOrZ2Q2rFdUzKpPU+rmNrN6RWXMekTFrv4zq2dkNqxXVMyqT1Pq5jazekVr6e4z+2WQ34h7yt7QAAAABJRU5ErkJggg==;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="20.7" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DlmjGo5GrGs6SF8IxwzP-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAIAAAAHj8TvAAADJUlEQVRoBe2Y2VLiQBRA+f9vQBwLEEcGEkE2RwQFNCwquAGOGwgkIjpkUcQsPQ+x2pg2Tui0U2VNqDx0377pPhxuXSAe8NVenq8GDFziz//IXMf/wLEsy59/CskTPIqikNzv8/dy69h1jBpwqwJ1QjriOiZtFN3vv3c8mTzV6sfl3QP94gUJleQwQtjxWq7k9UfgVWT2HPKht5Mk1jRtIbQCcb3+yMZWGT3SYYQkMS+IviBlJA6E4w750NsdERfL+0ets9HdWNO0ATtcSeaMuPqYSmS5m5EsK4IgMbXGdqUuy45+e+ETt8+uUD47kZPTc9Sc/Qgm8cPDZC4QtcOH5ixFU/b50ExM4lJ5D0Xx+iOBcLzZvuizNwNu2GxfBMOr76ZtV+sois0IJnG+VEVR6OSGqqq8IF52ehed3uPkaXQ3phJZNDNXqGiaZhPRlIZJrCgKnczOBV5b7/wiDQDo9ljIFwivdnscL0jzi28aCFM7MEHMNMUkBgCoqhpLvzaHnWpDlB4Wlt70Y71kU+sF+DaY2oGiqDMhmpLxiQEA+4dNiNJsn3PDEZzCwZgXW6eXcNrpDkwEs04dEdePWhDluHV2O7pHG8hkMt2p1mHa9YCbFdGU74g4EvsJUYrMviwr30I0jHj9kXg6DwAwFs8S5ai1AYD73E0QpejquhHOF6TYm9H9b34l9VLcibUtXhC7Pdb3tnPH0rnp9Nlkzv4U03E0/moXci/Tmes+p2kaL0hjXtRbx3cqBRPgIJbO2Uc0ZWIS/zrvwONNg1A0ydQald1DU98wprVOL00c9qcevE7+NJ3OGX4HG2n+Ok6uF+zzoZke7OduA3Y4v0j7glQ8s5ndZJbpjBVrKJLIbJSi8Ze6v+47aheYjvW3ftXps9ytPn5+lvPFCgqdL1VV9eUrQ5Ie++wQ1TZTBLOO3z1Dkh5NX8g/Ymt4Vffu/nqQJDH6r2mzVPvgbLwlksQAgMLOrrEw9honeFgf3EWY+IOTSC25xKRMWu/jOrZ2Q2rFdUzKpPU+rmNrN6RWXMekTFrv4zq2dkNqxXVMyqT1Pq5jazekVr6e4z+2WQ34h7yt7QAAAABJRU5ErkJggg==;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="31.05" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
