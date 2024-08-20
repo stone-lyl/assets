@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="susAsBvZPmV3oMP2SHvA">
-    <mxGraphModel dx="688" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2715" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="ld7JimjzPcvw21RbXaTX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-31" target="ld7JimjzPcvw21RbXaTX-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ld7JimjzPcvw21RbXaTX-31" value="渲染首个 diagram&lt;br&gt;渲染 Tree 在 settings 中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="ld7JimjzPcvw21RbXaTX-31" value="Tree 中的首个 diagram&lt;br&gt;渲染成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-33" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -103,22 +103,58 @@
           <mxGeometry x="230" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-36" target="ld7JimjzPcvw21RbXaTX-45">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1360" />
+              <mxPoint x="240" y="1360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-36" value="before diagram unchanged and unsaved" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="1280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-38" target="ld7JimjzPcvw21RbXaTX-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-38" value="Before diagram 正在 running&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-40" target="ld7JimjzPcvw21RbXaTX-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-40" value="Before diagram&amp;nbsp; changed and unsave" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-43" target="ld7JimjzPcvw21RbXaTX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-43" value="before diagram click save button" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1270" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ld7JimjzPcvw21RbXaTX-45" value="重新渲染 new diagram （重新 init)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-47" target="ld7JimjzPcvw21RbXaTX-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-47" value="Cancel before diagram 正在执行，switch 到新的 diagram？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-51" target="ld7JimjzPcvw21RbXaTX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-51" value="触发保存接口，保存成功后可以点击切换" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ld7JimjzPcvw21RbXaTX-56" target="ld7JimjzPcvw21RbXaTX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ld7JimjzPcvw21RbXaTX-56" value="不会触发保存接口，本地也不会进行保存。直接切换新diagram" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
