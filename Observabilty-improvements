@@ -170,51 +170,93 @@
     </mxGraphModel>
   </diagram>
   <diagram id="COxjB0G-Ot7BY0EJSina" name="old-observable">
-    <mxGraphModel dx="1932" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="R6mLFtywLEsvqK5rUUP0-1" value="table 的数据更新" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="315" y="50" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="381" y="50" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-1" target="xEgeD4H4BDn4FlcpLXry-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-1" value="UseObserverTable&lt;div&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setObservers(observerId.current, tableObserver);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="200" width="210" height="120" as="geometry" />
+          <mxGeometry x="86" y="200" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-2" target="xEgeD4H4BDn4FlcpLXry-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-2" value="store&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;get()?.clientRun?.({&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;diagram: get().toDiagram(),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;updateEdgeCounts: get().updateEdgeCounts,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; observers:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;observerMap&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;})&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
-          <mxGeometry x="310" y="190" width="210" height="140" as="geometry" />
+          <mxGeometry x="376" y="190" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-4" target="xEgeD4H4BDn4FlcpLXry-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-4" value="&lt;div&gt;WorkspaceApiClientBase&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;const msg$ = this.transport.streaming({&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; type: &#39;run&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; diagram,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inputObservers: observers?.inputObservers || [],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
-          <mxGeometry x="600" y="190" width="210" height="140" as="geometry" />
+          <mxGeometry x="666" y="190" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-6" target="xEgeD4H4BDn4FlcpLXry-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-6" value="&lt;div&gt;messageHandlers&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;const inputObserverController = new InputObserverController(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inputObservers || [],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; (items: ItemValue[], inputObservers: InputObserver[]) =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sendEvent({&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type: &#39;NotifyObservers&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; items,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inputObservers&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; );&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="410" width="450" height="200" as="geometry" />
+          <mxGeometry x="546" y="410" width="450" height="200" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-8" value="&lt;div&gt;InputObserverController&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; reportItems(inputObserver: InputObserveConfig, items: ItemValue[]): void {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; const inputObservers = this.isReport(inputObserver);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; if (inputObservers.length &amp;gt; 0) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; this.notifyObservers(items, inputObservers);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-46" y="440" width="450" height="140" as="geometry" />
+          <mxGeometry x="20" y="440" width="450" height="140" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;InputDevice&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;this.inputObserverController?.reportItems({&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; nodeId: this.node.id,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; portId: name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;}, pulled);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="11" y="660" width="310" height="110" as="geometry" />
+          <mxGeometry x="77" y="660" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-10" target="xEgeD4H4BDn4FlcpLXry-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xEgeD4H4BDn4FlcpLXry-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-6" target="xEgeD4H4BDn4FlcpLXry-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="540" as="sourcePoint" />
-            <mxPoint x="410" y="490" as="targetPoint" />
+            <mxPoint x="426" y="540" as="sourcePoint" />
+            <mxPoint x="476" y="490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-14" value="edge &amp;amp; hooks" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="50" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-15" target="xEgeD4H4BDn4FlcpLXry-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-15" value="computers&lt;div&gt;console node&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-16" target="xEgeD4H4BDn4FlcpLXry-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-16" value="ExecutionMemoryFactory&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;memory.setNodeRunner(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node.id,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; computer.run({&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; input: inputDevice,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; output: outputDevice,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; params: this.makeParamsDevice(node, memory),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; storage: this.storage,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; hooks: {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; register: (hook: Hook) =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; memory.pushHooks([hook])&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; node,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="160" width="370" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-18" value="hooks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-19" target="xEgeD4H4BDn4FlcpLXry-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-19" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ExecutorFactory&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2133" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-21" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2016" y="269" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-22" target="xEgeD4H4BDn4FlcpLXry-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-22" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Executor -&amp;nbsp;execute&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;yield {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type: &#39;ExecutionUpdate&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; counts: mapToRecord(this.memory.getLinkCounts()),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; hooks: this.memory.pullHooks(),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; state: &#39;running&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2019.5" y="90" width="347" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEgeD4H4BDn4FlcpLXry-24" target="xEgeD4H4BDn4FlcpLXry-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-24" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Application&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;getExecutor&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2133" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEgeD4H4BDn4FlcpLXry-26" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;getDefaultMsgHandlers&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp;const executor = app!.getExecutor({&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; diagram,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; storage,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; inputObserverController&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; });&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;const execution = executor?.execute();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2069.5" y="555" width="247" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
