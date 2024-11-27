@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6" pages="2">
   <diagram name="Page-1" id="sbTiQ6Ua1EG78ieuUPqL">
-    <mxGraphModel dx="1932" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-1" value="Table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="350" width="90" height="60" as="geometry" />
+          <mxGeometry x="-384" y="350" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="A14hZiKRzuO5IoaR_60V-2" target="A14hZiKRzuO5IoaR_60V-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -86,10 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-2" value="User Interaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="206" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="A14hZiKRzuO5IoaR_60V-4" value="Scroll to the bottom of the current table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-410" y="297" width="250" height="30" as="geometry" />
+          <mxGeometry x="-384" y="206" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-6" value="Notify subscribers that the data has arrived" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-170" y="335" width="270" height="30" as="geometry" />
@@ -119,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-19" value="dataStory Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="70" width="90" height="60" as="geometry" />
+          <mxGeometry x="-384" y="70" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A14hZiKRzuO5IoaR_60V-22" value="click run button" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-110" y="64" width="110" height="30" as="geometry" />
@@ -158,15 +155,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="430" as="sourcePoint" />
             <mxPoint x="160" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A14hZiKRzuO5IoaR_60V-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="A14hZiKRzuO5IoaR_60V-11" target="A14hZiKRzuO5IoaR_60V-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="430" as="sourcePoint" />
-            <mxPoint x="160" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-205" y="510" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7Z4UWEjBdzBk7QtIimdo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Z4UWEjBdzBk7QtIimdo-1" target="7Z4UWEjBdzBk7QtIimdo-8">
@@ -236,7 +224,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Z4UWEjBdzBk7QtIimdo-26" value="&amp;lt;DataStory&amp;nbsp;&lt;br&gt;&amp;nbsp; Observers={itemsObserver}&lt;br&gt;/&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="206" width="180" height="53" as="geometry" />
+          <mxGeometry x="-200" y="269" width="180" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="A14hZiKRzuO5IoaR_60V-4" value="Scroll to the bottom of the current table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="315" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
