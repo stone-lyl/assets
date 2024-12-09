@@ -44,7 +44,7 @@
         <mxCell id="WGFxyVuObMuwLcrBygDn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="38vXCRN8p0Vo143Qb7JG-3" target="WGFxyVuObMuwLcrBygDn-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="630" y="426" />
+              <mxPoint x="630" y="438" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -282,8 +282,14 @@
         <mxCell id="Q3YmGbA_B_iQLKsxASQO-3" value="throttleMs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry y="345" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WGFxyVuObMuwLcrBygDn-1" value="getDataFromStorage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="126" y="396" width="120" height="60" as="geometry" />
+        <mxCell id="WGFxyVuObMuwLcrBygDn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WGFxyVuObMuwLcrBygDn-1" target="WGFxyVuObMuwLcrBygDn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGFxyVuObMuwLcrBygDn-1" value="nodeStatusObserver&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="408" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGFxyVuObMuwLcrBygDn-5" value="updateEdgeStatus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="408" width="136" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
